@@ -1,3 +1,5 @@
+#  AWS Critical Thinking  
+
 To design and deploy an AWS cloud infrastructure for two company websites using reverse proxy technology, focusing on enhancing security, scalability, performance, and cost-efficiency, follow these steps:
 
 ### 1. **Infrastructure Design Overview**
