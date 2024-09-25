@@ -90,19 +90,5 @@ AWS doesn’t natively provide memory metrics, so you need to set up custom Clou
 ### 6. **Cleaning Up Resources**:
 After completing the deployment and testing, it is essential to delete all resources to avoid incurring charges.
 
-#### a. **Delete Resources**:
-1. **Auto Scaling Group**:
-   ```bash
-   aws autoscaling delete-auto-scaling-group --auto-scaling-group-name <name> --force-delete
-   ```
-2. **ALB**:
-   ```bash
-   aws elbv2 delete-load-balancer --load-balancer-arn <ALB-ARN>
-   ```
-3. **EC2 Instances**:
-   ```bash
-   aws ec2 terminate-instances --instance-ids <instance-id>
-   ```
-4. **VPC and Subnets**:
-   - Delete subnets and the VPC once all resources are detached.
+
 
